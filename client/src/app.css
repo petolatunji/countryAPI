@@ -1,0 +1,60 @@
+.contApp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px 50px 50px;
+  background-color: #f5f5e9;
+}
+
+.contSearch {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  bottom: 0px;
+  top: 60px;
+  left: 10px;
+  text-align: center;
+  min-width: 50px;
+}
+
+.icon::placeholder {
+  display: inline-block;
+}
+
+input {
+  padding: 10px;
+  width: 400px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.map {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mapCont {
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+img {
+  height: 150px;
+  width: 300px;
+}
+
+.mapdiv {
+  padding: 20px;
+}
+
+p {
+  font-weight: bold;
+}
+span {
+  font-weight: 300;
+}
